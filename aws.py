@@ -10,7 +10,7 @@ class AWSFileUpload(APIView):
         #example folder in aws account ('Eg : mediaphoenix')
         try:
 
-            s3 = boto3.resource('s3',region_name='us-east-1',aws_access_key_id='AKIA6F7PCUPMTKT3TJW3',aws_secret_access_key='0ABh1Bb9w+D8szWIoYo7R/UQAxqr6tkouheaiojy')
+            s3 = boto3.resource('s3',region_name='us-east-1',aws_access_key_id='',aws_secret_access_key='aiojy')
 
             attachment = open(folder+'/'+fileName, "rb").read()
 
